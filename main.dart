@@ -1,6 +1,17 @@
-import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart'; 
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyDejx2t0fl-N3zR-3HRMbkw876v-MizhK", 
+      appId: "1:938115535232:web:42381c9694e600b26c41d5",   
+      messagingSenderId: "938115535232", 
+      projectId: "albiznet", 
+    ),
+  );
+  
   runApp(const ALbiznetApp());
 }
 
