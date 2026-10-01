@@ -13,7 +13,6 @@ void main() async {
   );
   runApp(const AlbiznetApp());
 }
-
 class ALbiznetApp extends StatelessWidget {
   const ALbiznetApp({Key? key}) : super(key: key);
 
