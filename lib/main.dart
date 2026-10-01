@@ -11,8 +11,9 @@ void main() async {
       projectId: "albiznet",
     ),
   );
-  runApp(const AlbiznetApp());
+  runApp(const ALbiznetApp());
 }
+
 class ALbiznetApp extends StatelessWidget {
   const ALbiznetApp({Key? key}) : super(key: key);
 
@@ -131,4 +132,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
